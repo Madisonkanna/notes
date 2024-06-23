@@ -62,5 +62,12 @@ None of these seem ideal in the long term.
 
 **If we go with (3) we’re going to end up with an extremely complicated API**, that significantly diverges from the RESTful model (which would seem to indicate that `GET /doctors` should be the single path where we get a list of doctors)
 
-**If we go with (4) we’ll introduce some non-trivial complexity to the existing endpoint**, and introduce the need for more test cases. What happens when we have several orthogonal modes that all can be used in conjunction with each other? We'll end up with N! scenarios to build, test and maintain.
+**If we go with (4) we’ll introduce some non-trivial complexity to the existing endpoint**, and introduce the need for more test cases. What happens when we have several orthogonal modes that all can be used in conjunction with each other? We'll end up with 2^N! scenarios since each scenario can be included or excluded. 2 states raised to the N. GraphQL can help us here.
 
+Project Tour
+
+There are three top level folders
+
+- `/client` - A React frontend
+- `/server` - A Node.js backend
+- `/shared` - Code that can be imported by both the frontend and backend
