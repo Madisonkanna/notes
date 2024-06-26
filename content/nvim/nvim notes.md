@@ -9,7 +9,7 @@ tags:
 
 
 
-### Opening nivm
+### Opening a project with nivm
 
 To open nvim in the root of your repo, you can run `nvim .` in your terminal. This opens nvim and sets the current directory as the working directory within nvim.
 
