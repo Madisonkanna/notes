@@ -1,5 +1,5 @@
 ---
-title: computernetworking, booknotes
+title: Computer Networking - book notes
 draft: false
 tags:
 ---
