@@ -4,6 +4,7 @@ draft: false
 tags:
   - computersystems
   - computerarchitecture
+  - programminglogicanddesign
 ---
 1.2 Hardware
 
